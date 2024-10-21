@@ -1,3 +1,4 @@
 FROM almalinux:9
 #CMD ["ping", "google.com"]
-ENTRYPOINT ["ping", "google.com"]
+MD ["google.com"]
+ENTRYPOINT ["ping"]
